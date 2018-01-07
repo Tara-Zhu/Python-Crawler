@@ -55,7 +55,7 @@ def CrawlSourcePage(url,filedir,filename,CrawledURLs):
             f.write(sourceurl.encode("utf-8")+"\n")
         f.close()
     except:
-        print "!!!!!!!!!!!!!!!!!"
+        print "!!!!!!!!!!!!!!!"
 
 # 解析分类文件
 def CrawListPage(indexurl,filedir,CrawledURLs):
